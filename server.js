@@ -1,6 +1,6 @@
 const express = require('express')
 const mongo = require('mongodb').MongoClient
-const url = 'mongodb://localhost:27017'
+const url = 'mongodb+srv://maksme99@gmail.com:mongodb978A@2maldi.4xq0w.azure.mongodb.net/2maldi?retryWrites=true&w=majority'
 
 const app = express()
 app.use(express.json())
