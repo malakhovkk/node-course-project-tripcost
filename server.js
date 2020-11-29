@@ -32,6 +32,11 @@ app.post('/trip', (req, res) => {
   })
 })
 
+app.get('/hello', (req, res) => {
+
+    res.status(200).json({ "hi":123 })
+})
+
 app.get('/trips', (req, res) => {
   trips.find().toArray((err, items) => {
     if (err) {
